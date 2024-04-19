@@ -1,7 +1,6 @@
 import pytest
 from selene import browser
 
-
 @pytest.fixture()
 def browser_management():
 
