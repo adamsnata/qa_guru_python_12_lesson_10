@@ -25,7 +25,7 @@ def test_dynamic_steps(browser_management):
         s(by.partial_text("#76")).should(be.visible)
 
 
-def test_decorator_steps():
+def test_decorator_steps(browser_management):
     open_main_page()
     search_for_repository("eroshenkoam/allure-example")
     go_to_repository("eroshenkoam/allure-example")
