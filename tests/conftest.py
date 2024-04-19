@@ -2,7 +2,7 @@ import pytest
 from selene import browser
 
 
-@pytest.fixture(scope='function', autouse=True)
+@pytest.fixture(scope='function')
 def browser_management():
 
     browser.config.window_width = 1920
