@@ -11,7 +11,6 @@ def test_dynamic_labels():
     pass
 
 
-
 @allure.tag("web")
 @allure.severity(Severity.CRITICAL)
 @allure.label("owner", "eroshenkoam")
