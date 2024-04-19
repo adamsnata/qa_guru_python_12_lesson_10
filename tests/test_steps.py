@@ -5,6 +5,7 @@ from selene.support.shared import browser
 from selene.support.shared.jquery_style import s
 
 
+
 def test_dynamic_steps(browser_management):
     with allure.step("Открываем главную страницу"):
         browser.open("https://github.com")
